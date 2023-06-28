@@ -1,0 +1,12 @@
+/////// ---------------- Steps to run ---------------- ///////
+
+1. Run without debugging on (Express.js) only, datas will automatically pushed to MongoDB
+2. To display what datas are being retrieved, Run Program.js to view terminal console - "console.log output"
+3. Keep at least 3 Variables/Parameters so that MongoDB can push to database in the (Express.js) folder.
+4. Go to browser >> "http://localhost:3000/getNews?title=Penang" (in file program.js) >> Hit enter. (to Run react)
+5. Check MongoDB for updates. 
+6. Refer to API staging endpoints: https://newsapi.org/v2/everything?domains=techcrunch.com,thenextweb.com&apiKey=e1928d8e81824e838da111571e75f9f7
+7. API documentation: https://newsapi.org/docs/endpoints/everything
+8. Run the react project by using the command `npm Start` and wait for the broswer localhost to launch automatically.
+
+/////// ------------ End of Steps to run ------------ ///////
