@@ -4,13 +4,13 @@
 > "NewsToday" News API with Backend and Frontend using REST API
 
 ### JS Technology Used:
-> MongoDB - Mongoose
-> Express
-> Middlware
-> Axios
-> React
-> ReactDOM
-> Connect
+- MongoDB - Mongoose
+- Express
+- Middlware
+- Axios
+- React
+- ReactDOM
+- Connect
 
 ### Scope & Features:
 > 1. Front end based UI (localhost:3000) which represents the main branch of the repository
