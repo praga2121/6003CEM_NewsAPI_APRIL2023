@@ -188,15 +188,13 @@ app.get('/getNews', (req, res) => {
         });
 
       const newsHTML = `
-      <div class="container">
-        <div class="news-item">
-          <h3>${author}</h3>
-          <h2>${title}</h2>
-          <p>${description}</p>
-          <a href="${url}">Read more</a>
-          <p>Record saved</p>
+       <div style="max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f0f0f0; border-radius: 5px;">
+          <h1 style="font-size: 28px; margin-bottom: 10px; color: #333333;">${author}</h1>
+          <h2 style="font-size: 24px; margin-bottom: 10px; color: #007bff;">${title}</h2>
+          <p style="margin-bottom: 10px; color: #666666;">${description}</p>
+          <a href="${url}" style="display: inline-block; padding: 8px 12px; background-color: #007bff; color: #ffffff; text-decoration: none; border-radius: 5px; font-weight: bold;">Read more</a>
+          <p style="margin-top: 10px; color: #666666;">Record saved</p>
         </div>
-      </div>
       `;
 
       res.send(`${newsHTML}<br>Record saved
